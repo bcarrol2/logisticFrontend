@@ -1,0 +1,73 @@
+.overlay {
+  background-color: rgba(0,0,0,0.4);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -5;
+}
+
+#login-button {
+  position: absolute;
+  top: 80%;
+  left: 40%;
+  background-color: lightblue;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 7%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#signup-button {
+  position: absolute;
+  top: 80%;
+  right: 40%;
+  background-color: lightblue;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 7%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#login-button:hover {
+  background-color: navy;
+}
+
+#signup-button:hover {
+  background-color: navy;
+}
+
+#landing-text {
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 20%;
+  font-size: 50px;
+}
+
+.products-container {
+  border: solid 2px black;
+  border-radius: 4px;
+  background-color: #E8E8E8;
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+input {
+  align-self: center;
+  width: 70%;
+}
+
+#single-product {
+  margin: 5px;
+  height: 70px;
+  width: 99%;
+  border: solid 2px blue;
+}
